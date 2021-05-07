@@ -1,0 +1,23 @@
+<html>
+    <head>
+        <title>Login</title>
+        <link rel="stylesheet" href="css/styles.css">
+    </head>
+    <body>
+        <div class="centered-form">
+            <div class="centered-form__box">
+                <h1 style="text-align: center">Login</h1>
+                <form id="login">
+                    <label>Username</label>
+                    <input type="text" id="username" placeholder="Username" required>
+                    <label>Password</label>
+                    <input type="password" id="password" placeholder="Password" required>
+                    <button onClick="login">Submit</button>
+                </form>
+                <p><a href="./signup.html">Create a new account</a></p>
+            </div>
+        </div>
+        <script src="//cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+		<script type="module" src="js/login.js"></script>
+    </body>
+</html>
